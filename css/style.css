@@ -1,0 +1,99 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;;
+}
+
+html {background: url(../images/backgroundimage.jpg);
+}
+
+.container {
+	overflow: auto;
+	max-width: 960px;
+	margin: auto;
+	
+}
+
+.banner {
+	width: 200%;
+	height: 200px;
+	background: url(../images/banner.jpg);
+	background: cover;
+	background-position: center;
+	
+}
+
+.banner-heading{
+	font-family: 'Bevan', cursive;
+	font-size: 25px;
+	background-position: center;
+	padding: 10px;
+	color: rgba(226, 66, 244,0.7);
+}
+
+.banner-text{
+	text-align: right;
+
+}
+
+.main-nav  {
+	height: 100px;
+	line-height: 50px;
+	font-size: 25px;
+	text-decoration: none;
+	float: left;
+	padding: 20px;
+
+}
+
+.nav-bar-border {
+	height: 50px;
+	width: 100%;
+	background: purple;
+	position: relative;
+	bottom: 0px;
+	text-align: center;
+}
+
+.nav-bar-border li{
+	display: inline-block;
+
+}
+
+.nav-bar-border li a{
+	text-decoration: none;
+	color: white
+
+}
+.heading-history{
+	height: 100%;
+	width: 100%;
+	background: none;
+	position: relative;
+	text-align: center;
+}
+.history{
+	height: 100%;
+	width: 100%;
+	background: rgba(65, 217, 244,0.2);
+	position: relative;
+	bottom: 0px;
+	text-align: center;
+	float: left;
+
+}
+.cities{
+
+
+
+}
+footer {
+	text-align: center;
+	margin: 20px;
+	padding: 5px;
+	background: black;
+	color: red;
+	font-size: 30px;
+	text-transform: uppercase;
+
+}
