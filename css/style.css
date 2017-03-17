@@ -82,12 +82,46 @@ html {background: url(../images/backgroundimage.jpg);
 	float: left;
 
 }
+p{
+	font-size: 20px;
+}
+img{
+	text-align: center;
+}
+}
+
+#NewYork {
+	text-align: center;
+	font-size: 30px;
+	stroke: 15px;
+	color: white;
+}
+
+#London {
+	text-align: center;
+	font-size: 30px;
+	stroke: 15px;
+	color: white;
+}
+
+#Berlin{
+	text-align: center;
+	font-size: 30px;
+	stroke: 15px;
+	color: white;
+
+}
+
 .cities{
+	text-align: center;
+	color: white;
+}
 
 
 
 }
-footer {
+
+footer h3 {
 	text-align: center;
 	margin: 20px;
 	padding: 5px;
